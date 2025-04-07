@@ -1,5 +1,9 @@
 @import "tailwindcss";
-@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@theme {
+  --color-skill: #DDD0C8;
+}
 
 a {
   font-weight: 500;
@@ -15,6 +19,8 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -59,4 +65,29 @@ h3 {
 img {
   max-width: 50%;
   max-height: 75%;
+}
+
+.anchors {
+  list-style-type: none;
+  color: #29e0d5;
+  font-size: 18px;
+}
+
+.anchors li::before {
+  content: "\2022";
+  color: #BFA181;
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+.sub-anchors {
+  margin-left: 1.5rem;
+}
+
+.hash-link {
+  color: #29e0d5;
+}
+
+.sub-hash-link {
+  color: #DDD0C8;
 }
