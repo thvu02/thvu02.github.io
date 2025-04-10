@@ -12,7 +12,7 @@ const Home = () => {
                             <h1 style={{color:'#BFA181'}}>Trung Vu</h1>
                             <p className="mt-3 mb-5" style={{color:'#29e0d5'}}>Aiming to be better than I was yesterday</p>
                         </div>
-                        <img src="grad.jpg" alt="Trung Vu" className="mb-5"></img>
+                        <img src="images/pfp.webp" alt="Trung Vu" className="mb-5"></img>
                         <div>
                             <ul>
                                 <a href="https://github.com/thvu02" target="_blank" rel="noopener noreferrer"><i className="bi bi-github pe-0 me-2" style={{ fontSize: '28px', color: '#178582' }}></i></a>
@@ -20,7 +20,7 @@ const Home = () => {
                                 <a href="https://scholar.google.com/citations?user=0eTM9NkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i className="bi bi-google pe-0 me-2" style={{ fontSize: '28px', color: '#178582' }}></i></a>
                                 <a href="https://www.instagram.com/trung_vu_panda/" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram pe-0 me-2" style={{ fontSize: '28px', color: '#178582' }}></i></a>
                             </ul>
-                            <p style={{ color: '#DDD0C8' }}>Credit to <a href="https://brittanychiang.com" target="_blank" rel="noopener noreferrer" style={{ color: '#DDD0C8' }}>Brittany Chiang</a> for format</p>
+                            <p style={{ color: '#DDD0C8' }}>Format inspired by <a href="https://brittanychiang.com" target="_blank" rel="noopener noreferrer" style={{ color: '#DDD0C8' }}>Brittany Chiang</a></p>
                         </div>
                     </header>
                     <main className="pt-24 lg:w-[52%] lg:py-24">
