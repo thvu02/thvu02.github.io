@@ -26,8 +26,8 @@ const Home = () => {
                     <main className="pt-24 lg:w-[52%] lg:py-24">
                         <section id="about" className="mb-16 scroll-mt-16 mb:mb-24 lg:scroll-mt-24">
                             <h2 className="text-section">About</h2>
-                            <p className="intro">I&apos;m a CSMS student at <a href="https://www.cpp.edu/sci/computer-science/index.shtml" target="_blank" rel="noopener noreferrer">Cal Poly Pomona</a> and recent <a href="https://www.cs.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a> alumni. I am a developer with an unyielding drive to improve and mission to build secure, purposeful applications in efficient and innovative ways. Software development lets me bring the visions of myself and others to reality. That fact is what keeps me motivated.</p>
-                            <p className="intro">I will be joining <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">Amazon Web Services</a> this summer as an SDE intern. Previously, I was a Cybersecurity R&D intern at <a href="https://www.sandia.gov/" target="_blank" rel="noopener noreferrer">Sandia National Laboratories</a> where I developed operational technology security solutions for Sandia and federal partners. Prior to that, I was a Software Engineering intern at <a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener noreferrer">NASA JPL</a> and <a href="https://sisyphus-gs.com/" target="_blank" rel="noopener noreferrer">SISYPHUS Global Systems</a>, a startup, where I contributed to projects centered around climate change mitigation. My career in tech has been multi-faceted and these unique experiences granted me unique perspectives I can bring to teams when building software solutions.</p>
+                            <p className="intro">I recently graduated from <a href="https://www.cs.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a> with a B.S. in Computer Science and Engineering and am now pursuing my Master's in Computer Science at <a href="https://www.cpp.edu/sci/computer-science/index.shtml" target="_blank" rel="noopener noreferrer">Cal Poly Pomona</a>. As a developer, I am passionate about building secure and purposeful applications through efficient and innovative solutions. What truly motivates me is the power of software development to transform a vision—whether my own or someone else's—into a tangible reality.</p>
+                            <p className="intro">I just finished my SDE internship at <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">Amazon Web Services</a> where I helped the Managed Streaming for Apache Kafka Connect team automate service outage detection and customer notification. Previously, I was a Cybersecurity R&D intern at <a href="https://www.sandia.gov/" target="_blank" rel="noopener noreferrer">Sandia National Laboratories</a> where I developed operational technology security solutions for Sandia and federal partners. My background also includes software engineering internships at <a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener noreferrer">NASA JPL</a> and the startup <a href="https://sisyphus-gs.com/" target="_blank" rel="noopener noreferrer">SISYPHUS Global Systems</a>, where I contributed to projects centered on climate change mitigation. These diverse experiences have equipped me with a unique, multi-faceted perspective that I bring to building software solutions.</p>
                             <p className="intro">Work-life balance is critical, so I strive to pursue other passions outside of software development. In my spare time, I&apos;m either bowling, building computers, playing Valorant, or eating at new restaurants.</p>
                         </section>
                         <section id="education" className="mb-16 scroll-mt-16 md:mb-24 lg:scroll-mt-24">
@@ -45,8 +45,8 @@ const Home = () => {
                             <h2 className="text-section">Experience</h2>
                             <div id="amazon" className="mb-3">
                                 <h3 className="text-company">Amazon Web Services</h3>
-                                <p className="text-role">Software Development Engineer Intern | Incoming</p>
-                                <p className="text-description">We&apos;ll find out soon enough</p>
+                                <p className="text-role">Software Development Engineer Intern | May &ndash; Aug 2025</p>
+                                <p className="text-description">Managed Streaming for Apache Kafka Connect team</p>
                             </div>
                             <div id="sandia" className="mb-3">
                                 <h3 className="text-company">Sandia National Laboratories</h3>
@@ -70,7 +70,7 @@ const Home = () => {
                             <div id="chatbot" className="mb-3">
                                 <h3 className="text-company">Cybersecurity Chatbot</h3>
                                 <p className="text-role">AI-driven chatbot for incident response novices</p>
-                                <p className="text-description">HuggingFace | StreamLit | Mistral LLM | Python | MongoDB</p>
+                                <p className="text-description">HuggingFace | StreamLit | Llama | Python | MongoDB</p>
                             </div>
                             <div id="bowling" className="mb-3">
                                 <h3 className="text-company">Bowling Bro</h3>

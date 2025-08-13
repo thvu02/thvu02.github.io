@@ -45,8 +45,19 @@ const Experience = () => {
                             <h2 id="internships" className="text-section">Internships</h2>
                             <div id="amazon" className="mb-3">
                             <h3 className="text-company"><a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#29e0d5' }}>Amazon Web Services</a></h3>
-                                <p className="text-role">Software Development Engineer Intern | May 2025 &ndash; Present</p>
-                                <p className="text-description">We&apos;ll find out soon enough</p>
+                                <p className="text-role">Software Development Engineer Intern | May &ndash; Aug 2025</p>
+                                <p className="text-description">Developed and deployed monitoring system to detect Kafka Connector service outages and notify impacted customers to reduce on-call operator 
+                                    labor. Significantly reduced customer service outage notification time by integrating an internal notification tool into MSK Connect's system architecture. Engineered a 
+                                    data access layer (DAL) to abstract and optimize database queries.</p> 
+                                <ul className="mt-2 flex flex-wrap">
+                                    <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">AWS</div></li>
+                                    <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">Java</div></li>
+                                    <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">TypeScript</div></li>
+                                    <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">Apache Kafka</div></li>
+                                    <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">Golang</div></li>
+                                    <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">Infrastructure as Code</div></li>
+                                    <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">Junit</div></li>
+                                </ul>
                             </div>
                             <div id="sandia" className="mb-3">
                                 <h3 className="text-company"><a href="https://www.sandia.gov/" target="_blank" rel="noopener noreferrer" style={{ color: '#29e0d5' }}>Sandia National Laboratories</a></h3>
@@ -98,7 +109,7 @@ const Experience = () => {
                             <h2 id="research" className="text-section">Research</h2>
                             <div id="vrlab" className="mb-3">
                                 <h3 className="text-company"><a href="https://www.cppvr.org/" target="_blank" rel="noopener noreferrer" style={{ color: '#29e0d5' }}>Virtual Reality Lab &#64; CPP</a></h3>
-                                <p className="text-role">Graduate Research Assistant | Apr 2025 &ndash; Present</p>
+                                <p className="text-role">Graduate Research Assistant | Aug 2025 &ndash; Present</p>
                                 <p className="text-description">Picking up the work I did at SISYPHUS Global Systems (with permission) to refine the augmented reality process.</p>
                                 <ul className="mt-2 flex flex-wrap">
                                     <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">Unity</div></li>

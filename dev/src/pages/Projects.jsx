@@ -24,14 +24,14 @@ const Projects = () => {
                   <div id="chatbot" className="mb-3">
                       <h3 className="text-company"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" style={{ color: '#29e0d5' }}>Cybersecurity Chatbot <i className="bi bi-arrow-up-right-square ps-0 ms-1"></i></a></h3>
                       <img className="aspect-[16/9] w-full overflow-hidden rounded-lg shadow-lg block mx-auto border-2 border-white mt-2 mb-2" src="images/chatbot.png" alt="chatbot"/>
-                      <p className="text-description">AI-driven chatbot powered by Mistral 7b LLM to assist novice incident responders in familiarizing themselves with the cybersecurity field. 
+                      <p className="text-description">AI-driven chatbot powered by Llama 3 8b LLM to assist novice incident responders in familiarizing themselves with the cybersecurity field. 
                         Chatbot continuously pulls and is fine-tuned with cyber threat intelligence (CTI), including CVEs and CISA alerts, to provide relevant updated information. Can answer high- and 
                         low-level questions, provide details on any CVE, optionally save previous chats to a database, and directly send emails from interface. 
                       </p>
                       <ul className="mt-2 flex flex-wrap justify-center">
                           <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">Python</div></li>
                           <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">HuggingFace</div></li>
-                          <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">Mistral LLM</div></li>
+                          <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">Llama</div></li>
                           <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">Streamlit</div></li>
                           <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">MongoDB</div></li>
                           <li className="mr-2.5 mt-2"><div className="flex items-center rounded-full bg-orange-300/50 px-3 py-1 text-xs font-medium leading-5 text-skill">MITRE API</div></li>
