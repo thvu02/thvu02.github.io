@@ -1,4 +1,3 @@
-// Two entries use JSX for inline links in their descriptions; all others are plain strings.
 const PROJECTS = [
   {
     id: "bobatier",

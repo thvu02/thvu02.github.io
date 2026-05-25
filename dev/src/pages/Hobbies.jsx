@@ -1,16 +1,45 @@
-﻿import Navbar from "../components/Navbar";
+import { useRef, useState, useEffect } from "react";
+import Navbar from "../components/Navbar";
+import HobbyCard from "../components/HobbyCard";
+import HOBBIES from "../data/hobbies";
 
-const Hobbies = () => (
-  <div className="page-container">
-    <Navbar />
-    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-6 md:py-12 lg:py-0">
-      <div className="lg:flex lg:justify-between lg:gap-4">
-        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24 pt-8">
-          <p className="mt-3 mb-5" style={{color:"#29e0d5"}}>coming soon...</p>
-        </header>
+const Hobbies = () => {
+  const containerRef = useRef(null);
+  const sentinelRef = useRef(null);
+  const [showTop, setShowTop] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => setShowTop(!entry.isIntersecting),
+      { threshold: 0 }
+    );
+    const el = sentinelRef.current;
+    if (el) observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  const scrollToTop = () => containerRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+
+  return (
+    <div ref={containerRef} className="page-container">
+      <div ref={sentinelRef} style={{ height: "1px" }} aria-hidden="true" />
+      <Navbar />
+      <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-6 md:py-12 lg:py-0">
+        <main className="pt-24 lg:py-24 justify-center text-center">
+          {HOBBIES.map(hobby => <HobbyCard key={hobby.id} {...hobby} />)}
+        </main>
       </div>
+      {showTop && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-8 right-8 z-50 w-10 h-10 flex items-center justify-center rounded-full bg-orange-300/50 hover:bg-orange-300/80 transition-colors cursor-pointer"
+          aria-label="Scroll to top"
+        >
+          <i className="bi bi-arrow-up text-skill text-lg" />
+        </button>
+      )}
     </div>
-  </div>
-);
+  );
+};
 
 export default Hobbies;
