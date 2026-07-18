@@ -4,13 +4,13 @@ const SECTIONS = [
     title: "Full-Time",
     entries: [
       {
-        id: "tbd",
+        id: "google",
         href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        orgName: "SHHHHH it's a Secret",
-        navLabel: "SHHHHH it's a Secret",
-        roles: ["Software Engineer | ???"],
-        description: "???",
-        skills: ["get", "rick", "rolled"],
+        orgName: "Google",
+        navLabel: "Google",
+        roles: ["Software Engineer | Jul 2026 – Present"],
+        description: "Home and Health Infrastructure team",
+        skills: ["Java", "GCP", "Spanner"],
       },
     ],
   },
@@ -132,6 +132,15 @@ const SECTIONS = [
     id: "extracurriculars",
     title: "Extracurriculars",
     entries: [
+      {
+        id: "amazon-cba",
+        href: "https://aws.amazon.com/partners/ambassadors/",
+        orgName: "Amazon",
+        navLabel: "Amazon",
+        roles: ["Campus Brand Ambassador | Mar 2026 – Present"],
+        description: "Organized campus events and referred strong candidates for internship and full-time opportunities at Amazon.",
+        skills: [],
+      },
       {
         id: "upe",
         href: "https://upe.seas.ucla.edu/",
