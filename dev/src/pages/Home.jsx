@@ -24,23 +24,28 @@ const Home = () => (
                 <main className="pt-24 lg:w-[52%] lg:py-24">
                     <section id="about" className="mb-16 scroll-mt-16 mb:mb-24 lg:scroll-mt-24">
                         <h2 className="text-section">About</h2>
-                        <p className="intro">I recently graduated from <a href="https://www.cpp.edu/sci/computer-science/index.shtml" target="_blank" rel="noopener noreferrer">Cal Poly Pomona</a> with a Master&apos;s in Computer Science and have a B.S. in Computer Science and Engineering from <a href="https://www.cs.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a>.  As a developer, I am passionate about building secure and purposeful applications through efficient and innovative solutions. What truly motivates me is the power of software development to transform a vision into a tangible reality.</p>
-                        <p className="intro">My latest experience was an SDE internship at <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">Amazon Web Services</a> where I helped the Managed Streaming for Apache Kafka Connect team automate service outage detection and customer notification. Previously, I was a Cybersecurity R&D intern at <a href="https://www.sandia.gov/" target="_blank" rel="noopener noreferrer">Sandia National Laboratories</a> where I developed operational technology security solutions for Sandia and federal partners. My background also includes software engineering internships at <a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener noreferrer">NASA JPL</a> and the startup <a href="https://sisyphus-gs.com/" target="_blank" rel="noopener noreferrer">SISYPHUS Global Systems</a>, where I contributed to projects centered on climate change mitigation. These diverse experiences have equipped me with a unique, multi-faceted perspective that I bring to building software solutions.</p>
+                        <p className="intro">I graduated from <a href="https://www.cpp.edu/sci/computer-science/index.shtml" target="_blank" rel="noopener noreferrer">Cal Poly Pomona</a> with a Master&apos;s in Computer Science and have a B.S. in Computer Science and Engineering from <a href="https://www.cs.ucla.edu/" target="_blank" rel="noopener noreferrer">UCLA</a>.  As a developer, I am passionate about building secure and purposeful applications through efficient and innovative solutions. What truly motivates me is the power of software development to transform a vision into a tangible reality.</p>
+                        <p className="intro">I'm currently at <a href="https://healthapp.google/" target="_blank" rel="noopener noreferrer">Google</a> working on data storage for Fitbit. Before that, I interned at <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">Amazon Web Services</a> where I helped the Managed Streaming for Apache Kafka Connect team automate service outage detection and customer notification. By background also includes a cybersecurity R&D internship at <a href="https://www.sandia.gov/" target="_blank" rel="noopener noreferrer">Sandia National Laboratories</a>, where I developed operational technology security solutions for Sandia and federal partners, as well as software engineering internships at <a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener noreferrer">NASA JPL</a> and <a href="https://sisyphus-gs.com/" target="_blank" rel="noopener noreferrer">SISYPHUS Global Systems</a>, where I contributed to projects centered on climate change mitigation. These diverse experiences have equipped me with a unique, multi-faceted perspective that I bring to building software solutions.</p>
                         <p className="intro">Work-life balance is critical, so I strive to pursue other passions outside of software development. In my spare time, I&apos;m either bowling, building computers, playing Valorant, or eating at new restaurants.</p>
                     </section>
                     <section id="education" className="mb-16 scroll-mt-16 md:mb-24 lg:scroll-mt-24">
                         <h2 className="text-section">Education</h2>
                         <div id="CPP" className="mb-3">
                             <h3 className="text-company">Cal Poly Pomona</h3>
-                            <p className="text-role">M.S. Computer Science | May 2026</p>
+                            <p className="text-role">M.S. Computer Science</p>
                         </div>
                         <div id="UCLA" className="mb-3">
                             <h3 className="text-company">UCLA</h3>
-                            <p className="text-role">B.S. Computer Science and Engineering | Jun 2024</p>
+                            <p className="text-role">B.S. Computer Science and Engineering</p>
                         </div>
                     </section>
                     <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:scroll-mt-24">
                         <h2 className="text-section">Experience</h2>
+                        <div id="google" className="mb-3">
+                            <h3 className="text-company">Google</h3>
+                            <p className="text-role">Software Engineer | Jul 2026 &ndash; Present</p>
+                            <p className="text-description">Fitbit Health Fitness Data team</p>
+                        </div>
                         <div id="amazon" className="mb-3">
                             <h3 className="text-company">Amazon Web Services</h3>
                             <p className="text-role">Software Development Engineer Intern | May &ndash; Aug 2025</p>
@@ -55,11 +60,6 @@ const Home = () => (
                             <h3 className="text-company">NASA Jet Propulsion Laboratory</h3>
                             <p className="text-role">Software Engineering Intern | Jun &ndash; Aug 2022</p>
                             <p className="text-description">Developed ML models to predict 21st century surface temperatures</p>
-                        </div>
-                        <div id="sisyphus" className="mb-3">
-                            <h3 className="text-company">SISYPHUS Global Systems</h3>
-                            <p className="text-role">Software Engineering Intern | Mar &ndash; Aug 2021</p>
-                            <p className="text-description">Built web application to assess and visualize property flood risk in AR</p>
                         </div>
                         <Link to="/experience">View All Experiences<i className="bi bi-arrow-up-right-square ps-0 ms-1"></i></Link>
                     </section>
